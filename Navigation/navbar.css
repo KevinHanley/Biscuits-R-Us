@@ -1,7 +1,16 @@
 .navbar{
 	background-color: #f4511e;
 	border-radius: 0;
-	color: #fff;
+	color: #FFF;
+}
+
+.nav, .navbar-header, {
+	color: #FFF;
+	border-color: #FFF;
+}
+
+.navbar-nav li a, .nav li a{
+	color: #FFF;
 }
 
 .navbar-nav li a:hover{
