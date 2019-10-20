@@ -54,9 +54,9 @@
 	        </div>
 	      </div>
 
-	      <!-- Photo by Anastasiia Ostapovych on Unsplash -->
+	      <!-- Photo by Honey Yanibel Minaya Cruz on Unsplash -->
 	      <div class="item">
-	        <img src="/Images/macrons.jpg" alt="Macrons">
+	        <img src="/Images/brownies.jpg" alt="Macrons">
 	        <div class="carousel-caption">
 	          <h3>Perfection Every Time</h3>
 	          <p>Our new Deluxe range offer the ultimate pleasure</p>
