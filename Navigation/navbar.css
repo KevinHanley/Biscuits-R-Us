@@ -3,6 +3,9 @@
 	border-radius: 0;
 	color: #FFF;
 }
+nav{
+	color: #FFF;
+}
 
 .nav, .navbar-header, {
 	color: #FFF;
@@ -21,4 +24,10 @@
 .navbar-toggle {
     border-color: transparent;
     color: #fff !important;
-  }
+}
+
+@media screen and (max-width: 780px) {
+	#search-bar{
+	  display: none;
+	}
+}

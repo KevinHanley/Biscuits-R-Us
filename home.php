@@ -47,7 +47,7 @@
 	    <div class="carousel-inner">
 	    	<!-- Photo by Cayla1 on Unsplash -->
 	      <div class="item active">
-	        <img src="/Images/biscuit-tray.jpg" alt="Biscuits on a Tray" style="width:100%;">
+	        <img src="/Images/biscuit-tray.jpg" alt="Biscuits on a Tray">
 	        <div class="carousel-caption">
 	          <h3>Ingredients To Go</h3>
 	          <p>Make your own delicious treats with our new range</p>
@@ -56,7 +56,7 @@
 
 	      <!-- Photo by Anastasiia Ostapovych on Unsplash -->
 	      <div class="item">
-	        <img src="/Images/macrons.jpg" alt="Macrons" style="width:100%;">
+	        <img src="/Images/macrons.jpg" alt="Macrons">
 	        <div class="carousel-caption">
 	          <h3>Perfection Every Time</h3>
 	          <p>Our new Deluxe range offer the ultimate pleasure</p>
@@ -65,7 +65,7 @@
 	    
 	      <!-- Photo by Nerfee Mirandilla on Unsplash -->
 	      <div class="item">
-	        <img src="/Images/nescafe-cookies.jpg" alt="Cookies and Coffee" style="width:100%;">
+	        <img src="/Images/nescafe-cookies.jpg" alt="Cookies and Coffee">
 	        <div class="carousel-caption">
 	          <h3>Time To Relax</h3>
 	          <p>Put on the kettle and relax, after a long day</p>
