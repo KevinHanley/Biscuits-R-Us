@@ -11,6 +11,7 @@
 .home-cons{
 	padding: 60px 50px;
 	position: relative;
+	clear: both;
 }
 
 #our-promise{
@@ -20,4 +21,20 @@
 .logo {
     color: #f4511e;
     font-size: 200px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+      width: 100%;
+      margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+      font-size: 150px;
+    }
   }
