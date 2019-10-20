@@ -3,12 +3,12 @@
 	border-radius: 0;
 	color: #FFF;
 }
-nav{
+nav, .navbar-brand{
 	color: #FFF;
 }
 
 .nav, .navbar-header{
-	color: #FFF;
+	color: #FFF !important;
 	border-color: #FFF;
 }
 
@@ -23,8 +23,13 @@ nav{
 
 .navbar-toggle {
     border-color: transparent;
-    color: #fff !important;
+    color: #FFF !important;
 }
+
+.navbar-toggle span{
+	color: #FFF;
+}
+
 
 @media screen and (max-width: 780px) {
 	#search-bar{
