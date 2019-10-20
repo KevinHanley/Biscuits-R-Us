@@ -17,7 +17,7 @@
 
 	<!-- style sheets -->
 	<link rel="stylesheet" href="./Navigation/navbar.css" type="text/css"/>
-
+	<link rel="stylesheet" href="./home.css" type="text/css"/>
 </head>
 
 <body>
@@ -71,6 +71,7 @@
 	    </a>
 	  </div>
 	</div>
+
 	
 </body>
 </html>
