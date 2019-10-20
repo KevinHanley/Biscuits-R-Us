@@ -7,3 +7,11 @@
 #myCarousel{
 	height: 300px;
 }
+
+.container-fluid {
+	padding: 60px 50px;
+}
+
+#our-promise{
+	background-color: #f6f6f6;
+}
