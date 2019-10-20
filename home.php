@@ -23,7 +23,15 @@
 <body>
 	<!-- this php will add the navbar -->
 	<?php include("./Navigation/navbar.html"); ?>
+
+	<!-- Page header -->
+	<div class="jumbotron text-center">
+	  <h1>Biscuits R' Us</h1> 
+	  <p>Your One Stop Biscuit Shop!</p> 
+	</div>
 	
+
+	<!-- Image Carousel -->
 	<div class="container">
 	  <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
@@ -48,7 +56,7 @@
 	    
 	      <!-- Photo by Nerfee Mirandilla on Unsplash -->
 	      <div class="item">
-	        <img src="nescafe-cookies.jpg" alt="Cookies and Coffee" style="width:100%;">
+	        <img src="/Images/nescafe-cookies.jpg" alt="Cookies and Coffee" style="width:100%;">
 	      </div>
 	    </div>
 
