@@ -22,9 +22,9 @@
 
 <body>
 	<!-- this php will add the navbar -->
-	<?php include("./Navigation/navigation.html"); ?>
+	<?php include("./Navigation/navbar.html"); ?>
 	
-	<div class="container-fluid">
+	<div class="container">
 	  <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
 	    <!-- Indicators -->
