@@ -22,29 +22,47 @@
 
 <body>
 	<!-- this php will add the navbar -->
+	<?php include("./Navigation/navigation.html"); ?>
 	
-	<nav class="navbar navbar-inverse">
-	  <div class="container-fluid">
-	    <div class="navbar-header">
-	      <a class="navbar-brand" href="#">Biscuits R' Us</a>
-	    </div>
-	    <ul class="nav navbar-nav">
-	      <li class="active"><a href="#">Home</a></li>
-	      <li><a href="#">Products</a></li>
-	      <li><a href="#">About Us</a></li>
-	    </ul>
-	    <form class="navbar-form navbar-left" action="/action_page.php">
-	      <div class="input-group">
-	        <input type="text" class="form-control" placeholder="Search Products..." name="search">
-	        <div class="input-group-btn">
-	          <button class="btn btn-default" type="submit">
-	            <i class="glyphicon glyphicon-search"></i>
-	          </button>
-	        </div>
+	<div class="container-fluid">
+	  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+	    <!-- Indicators -->
+	    <ol class="carousel-indicators">
+	      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	      <li data-target="#myCarousel" data-slide-to="1"></li>
+	      <li data-target="#myCarousel" data-slide-to="2"></li>
+	    </ol>
+
+	    <!-- Wrapper for slides -->
+	    <div class="carousel-inner">
+	    	<!-- Photo by Cayla1 on Unsplash -->
+	      <div class="item active">
+	        <img src="/Images/biscuit-tray.jpg" alt="Biscuits on a Tray" style="width:100%;">
 	      </div>
-	    </form>
+
+	      <!-- Photo by Anastasiia Ostapovych on Unsplash -->
+	      <div class="item">
+	        <img src="/Images/macrons.jpg" alt="Macrons" style="width:100%;">
+	      </div>
+	    
+	      <!-- Photo by Nerfee Mirandilla on Unsplash -->
+	      <div class="item">
+	        <img src="nescafe-cookies.jpg" alt="Cookies and Coffee" style="width:100%;">
+	      </div>
+	    </div>
+
+	    <!-- Left and right controls -->
+	    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+	      <span class="glyphicon glyphicon-chevron-left"></span>
+	      <span class="sr-only">Previous</span>
+	    </a>
+	    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+	      <span class="glyphicon glyphicon-chevron-right"></span>
+	      <span class="sr-only">Next</span>
+	    </a>
 	  </div>
-	</nav>
+	</div>
 	
 </body>
 </html>
