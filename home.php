@@ -88,7 +88,7 @@
 
 
 	<!-- Container (About Section) -->
-	<div id="products" class="container-fluid">
+	<div id="products" class="container-fluid home-cons">
 	  <div class="row">
 	    <div class="col-sm-8">
 	      <h2>Products</h2><br>
@@ -97,7 +97,11 @@
 	      
 	      <p>From old classics to new stars, if you can think of it, then we sell it. Our range extends from main stream biscuits of all kinds, to our own fresh inhouse offerings. Not content with just that though? Well, you can also order all the ingredients you'd ever need, to make your own delicious treats today!</p><br>
 
-	      <button class="btn btn-default btn-lg" onclick="location.href='/Products/products.php">View Products</button>
+	      <button class="btn btn-default btn-lg" onclick="location.href='/Products/products.php'">View Products</button>
+	    </div>
+
+	    <div class="col-sm-4">
+	      <span class="glyphicon glyphicon-cutlery logo"></span>
 	    </div>
 	  </div>
 	</div>
@@ -105,8 +109,12 @@
 
 
 	<!-- Container (About Section) -->
-	<div id="our-promise" class="container-fluid">
+	<div id="our-promise" class="container-fluid home-cons">
 	  <div class="row">
+	    <div class="col-sm-4">
+	      <span class="glyphicon glyphicon-check logo"></span>
+	    </div>
+
 	    <div class="col-sm-8">
 	      <h2>Our Promise</h2><br>
 	      

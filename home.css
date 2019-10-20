@@ -8,10 +8,16 @@
 	height: 300px;
 }
 
-.container-fluid {
+.home-cons{
 	padding: 60px 50px;
+	position: relative;
 }
 
 #our-promise{
 	background-color: #f6f6f6;
 }
+
+.logo {
+    color: #f4511e;
+    font-size: 200px;
+  }
