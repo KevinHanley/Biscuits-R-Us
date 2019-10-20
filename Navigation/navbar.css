@@ -8,3 +8,8 @@
 	color: #f4511e !important;
     background-color: #fff !important;
 }
+
+.navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  }

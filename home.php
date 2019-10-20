@@ -33,7 +33,7 @@
 
 
 	<!-- Image Carousel -->
-	<div class="container">
+	<div class="container-fluid">
 	  <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
 	    <!-- Indicators -->
